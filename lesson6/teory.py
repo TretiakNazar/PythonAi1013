@@ -12,7 +12,7 @@ except :
 else:
     print(a ** 2)
 finally:
-    print(Fore.GREEN+"Кінець відловлення помилок")
+    print(Fore.GREEN+"Кінець відловлее")
 
 
 
