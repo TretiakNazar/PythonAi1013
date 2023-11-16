@@ -8,9 +8,9 @@ def divider(a, b):
             raise IndexError("b має бути менше або однакове за 100")
         return a / b
     except ValueError as ve:
-        print(f"Помилка значення (ValueError): {ve}")
+        print(f"Помилка значення (ValueError): {ValueError}")
     except IndexError as ie:
-        print(f"Помилка індексу (IndexError): {ie}")
+        print(f"Помилка індексу (IndexError): {IndexError}")
     except Exception as e:
         print(f"Помилка: {e}")
 
